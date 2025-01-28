@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://rdned.github.io',
                 'git_url': 'https://github.com/rdned/nbdev-hello-world',
                 'lib_path': 'nb_HW'},
-  'syms': {'nb_HW.core': {'nb_HW.core.foo': ('core.html#foo', 'nb_HW/core.py')}}}
+  'syms': { 'nb_HW.core': { 'nb_HW.core.foo': ('core.html#foo', 'nb_HW/core.py'),
+                            'nb_HW.core.say_hello': ('core.html#say_hello', 'nb_HW/core.py')}}}
